@@ -5,7 +5,13 @@
 
 # dotenv files
 .env
+
 API/appsettings.Development.json
+API/appsettings.json
+*.dll
+*.pdb
+*.exe
+
 # User-specific files
 *.rsuser
 *.suo
@@ -482,6 +488,3 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
-API/appsettings.Development.json
-API/appsettings.Development.json
-API/bin/Debug/net9.0/appsettings.Development.json

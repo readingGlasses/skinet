@@ -9,4 +9,11 @@ public class Product : BaseEntity
     public required string Type { get; set; }
     public required string Brand { get; set; }
     public int QuantityInStock { get; set; }
+/*
+    public required ProductType ProductType { get; set; }
+    public int ProductTypeId { get; set; }
+    public required ProductBrand ProductBrand { get; set; }
+    public int ProductBrandId { get; set; }
+    */
+
 }
